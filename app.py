@@ -21,7 +21,7 @@ carpeta = "datasets/"
 df_velocidad = pd.read_csv(carpeta + 'Internet_Velocidad_%_por_prov.csv')
 gdf = gpd.read_file(carpeta + 'mapas/map.geojson')
 df_tecnologia = pd.read_csv(carpeta + 'Internet_Accesos_Por_Tecnologia.csv')
-df_vel_tecnologia = pd.read_csv(carpeta + 'Internet_Accesos_Por_velocidad.csv')
+df_vel_tecnologia = pd.read_csv(carpeta + 'Internet_Accesos_por_velocidad.csv')
 df_accesos_hogares = pd.read_csv(carpeta + 'Internet_Penetracion-hogares.csv')
 df_portabilidad = pd.read_csv(carpeta + 'Portabilidad_Portin.csv')
 df_portabilidad.drop(columns=['nextel'], inplace=True)
