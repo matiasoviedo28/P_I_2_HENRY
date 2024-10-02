@@ -8,6 +8,7 @@ import plotly.express as px
 from sklearn.linear_model import LinearRegression
 import numpy as np
 from datetime import datetime
+import os
 
 ano_actual = datetime.now().year
 
@@ -538,4 +539,5 @@ def update_line_fibra(selected_region):
 
 #ejecutar la aplicacion
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    port = int(os.environ.get('PORT', 8050))  # Obtiene el puerto de la variable de entorno proporcionada por Render
+    app.run_server(host='0.0.0.0', port=port, debug=True)
