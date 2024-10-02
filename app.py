@@ -539,5 +539,4 @@ def update_line_fibra(selected_region):
 
 #ejecutar la aplicacion
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 8050))  # Obtiene el puerto de la variable de entorno proporcionada por Render
-    app.run_server(host='0.0.0.0', port=port, debug=True)
+    app.run_server(host='0.0.0.0', port=8050, debug=False)
