@@ -11,7 +11,7 @@ El análisis incluye la evolución del ancho de banda, el impacto de tecnología
 - **ETL.ipynb:** Aquí se realiza el proceso de extracción, transformación y carga de los datos. Se identificaron y eliminaron datos redundantes, atípicos y nulos, preparando la información para un análisis más limpio y efectivo.
 - **EDA.ipynb:** Se lleva a cabo el análisis exploratorio de datos con el objetivo de identificar tendencias, distribuciones y valores críticos. Las conclusiones de este análisis se utilizaron para diseñar el dashboard.
 - **app.py:** Contiene la implementación del dashboard interactivo utilizando Plotly y Dash. Permite a los usuarios explorar los datos, visualizar tendencias y entender la situación del acceso a internet en Argentina.
-- **Dashboard:** Se creó un dashboard utilizando 100% codigo python, y se conectó a Render.com [Link al Dashboard](https://p-i-2-henry.onrender.com)
+- **Dashboard:** Se creó un dashboard utilizando 100% codigo python, conecté mis habilidades con redes informaticas, y he realizado un servidor con **Ubuntu Server** Posteriormente he instalado mi repositorio en un entorno virtual y he habilitado el acceso del puerto 8050 a mi IP Pública. [Link al Dashboard](http://201.251.222.112:8050)
 
 ## Proceso ETL
 
